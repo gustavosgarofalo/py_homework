@@ -17,7 +17,7 @@ with open(csv_path, newline='') as csv_file:
     csv_reader=csv.reader(csv_file, delimiter=',')
     
 
-#takind out the column labels, separating each label in one row
+#taking out the column labels, separating each label in one row
     csv_labels=next(csv_reader)
      #print(f'csv_header{csv_labels}')
     date_lab=csv_labels[0]
@@ -57,7 +57,6 @@ print('Greatest Decrease in Profits: ', min_date, '($', int(low_diff), ')')
     
 
 #writing the results in a new txt file
-
 output_path=os.path.join('output.csv')
 
 #assessing output file but for write mode now
