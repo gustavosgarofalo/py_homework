@@ -14,7 +14,7 @@ tooley_count=0
 winner=[]
 
 #setting up the path for file into a variable
-csv_path=os.path.join('..', '..', 'Instructions', 'PyPoll', 'Resources', 'election_data.csv')
+csv_path=os.path.join('..', '..', 'datasets', 'PyPoll', 'Resources', 'election_data.csv')
 
 #Opening and reading file, storing in pypoll variable
 with open(csv_path, newline='') as csv_file:

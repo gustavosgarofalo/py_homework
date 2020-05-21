@@ -8,7 +8,7 @@ profloss_sum=0
 month_count=0
 
 #create variable path
-csv_path=os.path.join('..','..','Instructions', 'PyBank', 'Resources', 'budget_data.csv')
+csv_path=os.path.join('..','..','datasets', 'PyBank', 'Resources', 'budget_data.csv')
 
 
 #open and read through the file, using the path created
