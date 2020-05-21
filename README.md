@@ -7,4 +7,7 @@ Python is my favourite programming language. It is an amazing tool, intuitive an
 The skill displayed in this repository is PYTHON programming.
 
 ______________________________________________________________________________________________________________________________________
+Description of the work done:
+______________________________________________________________________________________________________________________________________
+
 
